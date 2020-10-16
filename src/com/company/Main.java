@@ -21,7 +21,7 @@ public class Main {
         String[] words = line.split(" ");
         for (String word : words){
             if (Pattern.matches("L[a-z]+", word)){
-                word = "Lala";
+                word = "Some new word";
             }
             str += (word + " ");
         }
